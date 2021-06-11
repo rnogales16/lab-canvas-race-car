@@ -2,6 +2,7 @@ const carImg = document.createElement('img');
 carImg.src = './images/car.png';
 
 class Car {
+  
   constructor(canvasContext, positionX, positionY) {
     this.ctx = canvasContext
     this.image = carImg,
